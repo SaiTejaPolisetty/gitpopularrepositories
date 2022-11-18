@@ -1,1 +1,26 @@
 /* Write your CSS here */
+.filter-item-container {
+  margin: 10px;
+}
+.language-btn {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  padding: 10px 30px;
+}
+.active-language-btn {
+  color: #0284c7;
+  border: 1px solid #0284c7;
+  border-radius: 20px;
+}
+@media (max-width: 576px) {
+  .filter-item-container {
+    margin: 1px;
+  }
+  .language-btn {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+}

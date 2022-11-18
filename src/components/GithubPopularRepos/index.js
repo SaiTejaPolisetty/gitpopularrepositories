@@ -61,7 +61,7 @@ class GithubPopularRepos extends Component {
   }
 
   renderLoadingView = () => (
-    <div testid="loader">
+    <div className="loader-container">
       <Loader type="ThreeDots" color="#0284c7" height={80} width={80} />
     </div>
   )
@@ -132,7 +132,7 @@ class GithubPopularRepos extends Component {
     return (
       <div className="app-container">
         <div className="responsive-container">
-          <h1 className="heading">Popular GitHub Repos</h1>
+          <h1 className="heading">Popular</h1>
 
           {this.renderLanguageFiltersList()}
           {this.renderRepositories()}

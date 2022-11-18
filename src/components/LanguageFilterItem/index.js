@@ -11,9 +11,9 @@ const LanguageFilterItem = props => {
   }
 
   return (
-    <li>
+    <li className="filter-item-container">
       <button
-        className={btnClassName}
+        className={`${btnClassName}`}
         onClick={onClickLanguageFilter}
         type="button"
       >
